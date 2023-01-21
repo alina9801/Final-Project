@@ -13,10 +13,7 @@ app.use(cors())
 app.use('/api/auth', require('./routes/Auth'));
 app.use('/api/hotel', require('./routes/Hotels'));
 
-app.get('/', (req, res)=>{
-  res.send("Welcome to iNotebook API");
-})
 
 app.listen(port, () => {
-  console.log(`inotebook is listening on port ${port}`)
+  console.log(`Xplore Jhelum is listening on port ${port}`)
 })

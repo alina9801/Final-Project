@@ -10,6 +10,7 @@ import faran1 from '../../Images/Institutions/faran1.jpg'
 import women1 from '../../Images/Institutions/women1.jpg'
 import commerce1 from '../../Images/Institutions/commerce1.jpg'
 import post1 from '../../Images/Institutions/post1.jpg'
+import Gic1 from '../../Images/Institutions/Gic1.png'
 import React, { Component } from "react";
 import Slider from "react-slick";
 
@@ -80,6 +81,12 @@ export default class CustomArrows extends Component {
                         <h3 className="text-center">Govt Post Graduate College, Jhelum</h3>
                         <img src={post1} className="d-block w-100 img-fluid" alt="..." />
                         <p className="py-2">Govt. Graduate College, Tahlianwala Road, Jhelum</p>
+                    </div>
+
+                    <div className="px-2">
+                        <h3 className="text-center">3.	Govt Institute of Commerce Pind Dadan Khan Jhelum</h3>
+                        <img src={Gic1} className="d-block w-100 img-fluid" alt="..." />
+                        <p className="py-2">Govt Institute of Commerce Pind Dadan Khan Jhelum</p>
                     </div>
                    
                   

@@ -16,7 +16,7 @@ const SIgnup = () => {
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({name:signupCred.name,email:signupCred.email, password:signupCred.password, age:signupCred.age, gender:signupCred.gender})
+            body: JSON.stringify({name:signupCred.name, email:signupCred.email, password:signupCred.password})
         });
         const json = await response.json();
         console.log(json);
