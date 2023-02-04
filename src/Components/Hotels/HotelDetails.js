@@ -104,6 +104,11 @@ const HotelDetails = (props) => {
                 </div>
             </div>
 
+            <div className='container' style={{padding:'17px 5px'}}>
+                <h1 className='primaryHeading' style={{ color: 'rgb(191 28 28)' }}>Location</h1>
+                <img src={location.state.location} className='img-fluid' />
+            </div>
+
             <div className="container my-3">
                 <button className="readmore mx-2" onClick={openModal}>Book Now</button>
                 <button className="readmore mx-2" onClick={() => { navigate('/Hotels') }}>Go Back</button>

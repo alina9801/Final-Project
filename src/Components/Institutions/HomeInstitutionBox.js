@@ -8,9 +8,17 @@ import superior1 from '../../Images/Institutions/superior1.jpg'
 import govt1 from '../../Images/Institutions/govt1.jpg'
 import faran1 from '../../Images/Institutions/faran1.jpg'
 import women1 from '../../Images/Institutions/women1.jpg'
-import commerce1 from '../../Images/Institutions/commerce1.jpg'
+import commerce1 from '../../Images/Institutions/commerce1.png'
 import post1 from '../../Images/Institutions/post1.jpg'
 import Gic1 from '../../Images/Institutions/Gic1.png'
+import ras1 from '../../Images/Institutions/ras1.png'
+import uni1 from '../../Images/Institutions/uni1.png'
+import vir1 from '../../Images/Institutions/vir1.png'
+import rip1 from '../../Images/Institutions/rip1.png'
+import asp1 from '../../Images/Institutions/asp1.png'
+import step1 from '../../Images/Institutions/step1.png'
+import ass1 from '../../Images/Institutions/ass1.png'
+import gt1 from '../../Images/Institutions/gt1.png'
 import React, { Component } from "react";
 import Slider from "react-slick";
 
@@ -71,7 +79,6 @@ export default class CustomArrows extends Component {
                         <img src={women1} className="d-block w-100 img-fluid" alt="..." />
                         <p className="py-2">Court Rd, District Civil Lines, Jhelum, Punjab</p>
                     </div>
-
                     <div className="px-2">
                         <h3 className="text-center">Govt College of Commerce Jhelum</h3>
                         <img src={commerce1} className="d-block w-100 img-fluid" alt="..." />
@@ -82,14 +89,52 @@ export default class CustomArrows extends Component {
                         <img src={post1} className="d-block w-100 img-fluid" alt="..." />
                         <p className="py-2">Govt. Graduate College, Tahlianwala Road, Jhelum</p>
                     </div>
-
                     <div className="px-2">
-                        <h3 className="text-center">3.	Govt Institute of Commerce Pind Dadan Khan Jhelum</h3>
+                        <h3 className="text-center">Govt Institute of Commerce Pind Dadan Khan Jhelum</h3>
                         <img src={Gic1} className="d-block w-100 img-fluid" alt="..." />
                         <p className="py-2">Govt Institute of Commerce Pind Dadan Khan Jhelum</p>
                     </div>
-                   
-                  
+                    <div className="px-2">
+                        <h3 className="text-center">Govt Degree College Rasulpur Sohawa Jhelum</h3>
+                        <img src={ras1} className="d-block w-100 img-fluid" alt="..." />
+                        <p className="py-2">Govt Degree College Rasulpur Sohawa Jhelum</p>
+                    </div>
+                    <div className="px-2">
+                        <h3 className="text-center">University of punjab</h3>
+                        <img src={uni1} className="d-block w-100 img-fluid" alt="..." />
+                        <p className="py-2">University of punjab</p>
+                    </div>
+                    <div className="px-2">
+                        <h3 className="text-center">Virtual University of pakistan</h3>
+                        <img src={vir1} className="d-block w-100 img-fluid" alt="..." />
+                        <p className="py-2">Virtual University of pakistan</p>
+                    </div>
+                    <div className="px-2">
+                        <h3 className="text-center">Riphah International College Jhelum</h3>
+                        <img src={rip1} className="d-block w-100 img-fluid" alt="..." />
+                        <p className="py-2">Riphah International College Jhelum</p>
+                    </div>
+                    <div className="px-2">
+                        <h3 className="text-center">Aspire Group of Colleges Jhelum Campus</h3>
+                        <img src={asp1} className="d-block w-100 img-fluid" alt="..." />
+                        <p className="py-2">Aspire Group of Colleges Jhelum Campus</p>
+                    </div>
+                    <div className="px-2">
+                        <h3 className="text-center">Step Institute Jhelum</h3>
+                        <img src={step1} className="d-block w-100 img-fluid" alt="..." />
+                        <p className="py-2">Step Institute Jhelum</p>
+                    </div>
+                    <div className="px-2">
+                        <h3 className="text-center">Govt Associate College for Women Civil Lines Jhelum</h3>
+                        <img src={ass1} className="d-block w-100 img-fluid" alt="..." />
+                        <p className="py-2">Govt Associate College for Women Civil Lines Jhelum</p>
+                    </div>
+                    <div className="px-2">
+                        <h3 className="text-center">Govt College G.T Road Jhelum</h3>
+                        <img src={gt1} className="d-block w-100 img-fluid" alt="..." />
+                        <p className="py-2">Govt College G.T Road Jhelum</p>
+                    </div>
+                 
                 </Slider>
             </div>
         );

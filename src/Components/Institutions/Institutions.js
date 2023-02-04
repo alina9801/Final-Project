@@ -53,7 +53,7 @@ const [loading, setLoading] = useState(false)
                         <div className="row ">
                             {loading ? <div className='d-flex align-items-center my-5 justify-content-center'><LoadingSpinner/></div> : posts.map((item) => {
                                 return <div key={item.id} className="col-md-4 my-3 col-sm-6 col-12">
-                                    <InstitutionCard key={item.id} image={[item.image[0], item.image[1], item.image[2], item.image[3], item.image[4], item.image[5]]} name={item.name} feature1={pool} feature2={drink} feature3={breakfast} />
+                                    <InstitutionCard key={item.id} image={[item.image[0], item.image[1], item.image[2], item.image[3], item.image[4], item.image[5]]} name={item.name} feature1={pool} feature2={drink} feature3={breakfast} desc={item.desc} />
                                 </div>
                             })}
                            

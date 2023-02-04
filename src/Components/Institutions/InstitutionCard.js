@@ -14,7 +14,7 @@ const InstitutionCard = (props) => {
         </div>
         <div className='d-flex flex-column p-4'>
           <h3 className='fw-bold'>{props.name}</h3>
-          <p className="smallpara">Hotel Description Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime iusto, cumque blanditiis fugiat neque dolorem ad</p>
+          <p className="smallpara">{props.desc}</p>
          
          
           <div className='d-flex justify-content-between my-2' style={{ alignItems: 'flex-end' }}>

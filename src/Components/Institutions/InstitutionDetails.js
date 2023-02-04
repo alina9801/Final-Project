@@ -40,18 +40,18 @@ const InstitutionDetails = () => {
                 </div>
             </div>
 
-            <div className="container packages">
+            {/* <div className="container packages">
                 <span>We offer following package</span>
                 <div className='d-flex gap-2'>
                     <span>Per night</span>
                     <span className='fw-bold' style={{ color: 'rgb(191 28 28)' }}>45,000</span>
                 </div>
-            </div>
+            </div> }
 
-            <div className="container my-3">
+            { <div className="container my-3">
                 <button className="readmore mx-2">Book Now</button>
                 <button className="readmore mx-2" onClick={() => { navigate('/Institutions') }}>Go Back</button>
-            </div>
+            </div> */}
 
             <div className="container">
                 <About />

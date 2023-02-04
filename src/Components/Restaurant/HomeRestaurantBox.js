@@ -10,6 +10,7 @@ import china1 from '../../Images/Restaurants/china.png'
 import monarch1 from '../../Images/Restaurants/monarch.png'
 import mehwish1 from '../../Images/Restaurants/mehwish1.png'
 import dewaan from '../../Images/Restaurants/dewaan1.png'
+import ajwa1 from '../../Images/Restaurants/ajwa1.png'
 export default class CustomArrows extends Component {
     render() {
         const settings = {
@@ -68,6 +69,11 @@ export default class CustomArrows extends Component {
                         <h3 className="text-center">Mehwish restaurants and hotels</h3>
                         <img src={mehwish1} className="d-block w-100 img-fluid" alt="..." />
                         <p className="py-2">G.T ROAD JADA , Jhelum, Pakistan</p>
+                    </div>
+                    <div className="px-2">
+                        <h3 className="text-center">Ajwa</h3>
+                        <img src={ajwa1} className="d-block w-100 img-fluid" alt="..." />
+                        <p className="py-2">G.T ROAD Cannt , Jhelum, Pakistan</p>
                     </div>
                 </Slider>
             </div>
